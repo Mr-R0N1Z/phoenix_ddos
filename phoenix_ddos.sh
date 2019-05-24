@@ -9,23 +9,15 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 # Jangan Recode Ya gayn
 # yang Recode Besok Mati Amin
-echo $i 'Sedang Mengdownload'
-pkg install figlet -y
+echo $i Sedang Mengdownload!
+sleep 0.1
+pkg install python2 -y
+sleep 0.1
+clear
+pkg install python -y
 sleep 0.1
 clear
 pkg install bash -y
-sleep 0.1
-clear
-pkg install toilet -y
-sleep 0.1
-clear
-apt update -y
-sleep 0.1
-clear
-apt upgrade -y
-sleep 0.1
-clear
-pkg install curl -y
 sleep 0.1
 clear
 echo $ku 'Script ini di buat oleh R0N1Z'
@@ -93,7 +85,7 @@ echo $ku DDoS
 sleep 0.1
 clear
 figlet DDoS
-echo $i IP PORT PACKET: #0862
+echo $me IP $ku PORT $i PACKET: #0862
 read PORT #71639
 sleep 0.3
 clear
