@@ -9,7 +9,7 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 # Jangan Recode Ya gayn
 # yang Recode Besok Mati Amin
-echo $ku Sedang Mengdownload
+echo $i 'Sedang Mengdownload'
 pkg install figlet -y
 sleep 0.1
 clear
@@ -68,7 +68,7 @@ read Nama #gates
 sleep 0.03
 clear
 
-echo $ku Selamat Datang $Nama di Phoenix_DDos
+echo $ku Selamat Datang $Nama di Phoenix_DDoS
 echo $me Tunggu 5detik...
 sleep 5
 clear
@@ -89,6 +89,10 @@ sleep 0.3
 echo $i Tunggu 20detik
 sleep 15
 clear
+echo $ku DDoS
+sleep 0.1
+clear
+figlet DDoS
 echo $i IP PORT PACKET: #0862
 read PORT #71639
 sleep 0.3
