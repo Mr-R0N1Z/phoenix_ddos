@@ -83,4 +83,4 @@ read PORT #71639
 sleep 0.3
 clear
 sleep 0.3
-python2 PDDOS.py $TARGET: 80 1000
+python2 PDDOS.py $TARGET: 80 320
