@@ -68,25 +68,18 @@ sleep 0.3
 
 figlet DOWN!
 echo $ku Contoh Cara Pemakaiannya 
-echo $me Tulis IP PORT DAN PAKETNYA SEKALIGUS CONTOHNYA 74.125.68.113 80 1000
+echo $me Tulis IP
+echo $cy Contoh 74.125.68.113 ini adalah IP
 sleep 0.3
-echo $cy 74.125.68.113 ini adalah IP
-sleep 0.3
-echo $i 80 adalah Port
-sleep 0.3
-echo $me 1000 adalah packet
-sleep 0.3
-echo $bi Faham!
-sleep 0.3
-echo $i Tunggu 20detik
-sleep 15
+echo $i Tunggu 6detik
+sleep 6
 clear
 echo $ku DDoS
 sleep 0.1
 clear
-figlet DDoS
-echo $me IP $ku PORT $i PACKET: #0862
+figlet "DDoS" | lolcat
+echo $me IP TARGET: #0862
 read PORT #71639
 sleep 0.3
 clear
-python2 PDDOS.py $PORT
+python2 PDDOS.py $IP 80 100000
