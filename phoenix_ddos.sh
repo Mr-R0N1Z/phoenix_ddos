@@ -82,5 +82,5 @@ echo $me IP TARGET: #0862
 read PORT #71639
 sleep 0.3
 clear
-Sleep 0.3
+sleep 0.3
 python2 PDDOS.py $TARGET: 80 1000
