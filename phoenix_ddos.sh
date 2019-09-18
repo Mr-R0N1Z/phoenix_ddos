@@ -77,7 +77,7 @@ if [ $bro = 2 ] || [ $bro = 2 ]
 then
 clear
 toilet -f slant --gay DDoS
-echo $ku SCRIPT INI TIDAK DI JUAL BELIKAN!
+echo $ku SANGAT BERGUNA!
 sleep 0.1
 echo $i IP TARGET: #0813
 read IP #1802
