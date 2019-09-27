@@ -18,7 +18,7 @@ echo "  _____  _     _  _____  _______ __   _ _____ _     _
 echo $i
 echo "[!] Cara Kerjanya [!]"
 echo " "
-echo "Jika DDoSnya Berjalan 3detik sekali artinya Bekerja"
+echo "Jika DDoSnya Berjalan lama artinya Bekerja"
 echo " "
 echo "Jika DDoSnya Tiba² Cepat,, Artinya Down"
 echo $me
