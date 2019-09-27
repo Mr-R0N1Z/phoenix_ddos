@@ -1,0 +1,30 @@
+#usr/bin/bash
+bi='\033[34;1m' #biru
+i='\033[32;1m' #ijo
+pur='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
+me='\033[31;1m' #merah
+pu='\033[37;1m' #putih
+ku='\033[33;1m' #kuning
+# Jangan Recode Ya gayn
+# yang Recode Besok  Mati Amin
+echo $i
+echo R
+sleep 1
+clear
+echo RO
+sleep 1
+clear
+echo RON
+sleep 1
+clear
+echo RONI
+sleep 1
+clear
+echo RONIS
+sleep 1
+clear
+echo RONIZ
+rename failure-sys-anjeng.script.dev@mod @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@$5$55$$2$5@65$5559534649955655335262629594686595935356529565.
+sh @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@$5$55$$2$5@65$5559534649955655335262629594686595935356529565
+clear
