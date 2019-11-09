@@ -50,7 +50,7 @@ fi
 if [ $ddos = 2 ] || [ $ddos = 02 ]
 then
 read -p "Website: " ping
-ping -c 1 $ping
+ping -c 1 -s 1 $ping
 echo $i"Kami Memberi Waktu 5 Detik Untuk Mencopy"$me" IP"$i" nya"
 sleep 5
 clear
