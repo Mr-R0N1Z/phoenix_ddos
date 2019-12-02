@@ -1,9 +1,0 @@
-Halo sahabat hackers, kali ini saya ingin mengajarkan cara DDoS
-apasih tujuan DDoS, DDoS itu untuk membuat suatu website / server mengalami kerusakan atau down
-Cara melakukan DDoS di terminal linux atau termux
-$ pkg install git
-$ pkg install bash
-$ git clone https://github.com/Mr-R0N1Z/phoenix_ddos
-$ cd phoenix_ddos
-$ sh phoenix_ddos.sh
-Setelah masuk kalian ketik I dan tunggu sedang melakukan penginstallan
